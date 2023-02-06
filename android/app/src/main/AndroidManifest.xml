@@ -1,7 +1,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.xilophone_project3">
    <application
-        android:label="xilophone_project3"
+        android:label="DolphinSound"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
