@@ -26,6 +26,7 @@ class Xilophone extends StatelessWidget {
       body: SafeArea(
         child: Center(
             child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
           children: [
             ButtonNote("note1.wav", Colors.red),
             ButtonNote("note2.wav", Colors.blue),

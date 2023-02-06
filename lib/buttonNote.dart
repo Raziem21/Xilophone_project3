@@ -9,14 +9,15 @@ class ButtonNote extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ElevatedButton(
+    return TextButton(
+      style: ButtonStyle(
+        backgroundColor: MaterialStatePropertyAll(buttonColor),
+      ),
       onPressed: () {
         final player = AudioPlayer();
         player.play(AssetSource(pathNote));
       },
-      child: Container(
-        color: buttonColor,
-      ),
+      child: SizedBox(),
     );
   }
 }
